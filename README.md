@@ -21,4 +21,4 @@ In order to use Clementine.js, you must have the following installed:
 - Body Parser
 - 
 ### Installation & Startup
-Just run the adver_new.js on your server and you are good to go.
+Just run the adver_new on your server and you are good to go.
