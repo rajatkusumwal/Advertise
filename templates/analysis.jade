@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    title= Advertise
+  body
+    p Write "*" in the text box to print data for all users else username.
+    form(name="analyse",action='https://add-rajatkusumwal.c9users.io/anauser')
+        div.input
+            span.label Analysis Accoding to username
+            input(type="text",name="user",value="")
+        div.actions
+            input(type="submit", value="Analyse")
+    p Write "*" in the text box to print data for all locations else location name.
+    form(name="analyse",action='https://add-rajatkusumwal.c9users.io/analoc')    
+        div.input
+            span.label Analysis Accoding to location
+            input(type="text",name="loc",value="")
+        div.actions
+            input(type="submit", value="Analyse")
+    form(name="login",action='https://add-rajatkusumwal.c9users.io/')
+        div.actions
+            input(type="submit", value="Home") 
+    br
+    p #{val}        

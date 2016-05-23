@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    title= Advertise
+  body
+    form(name="analysis",action='https://add-rajatkusumwal.c9users.io/analyse')
+        div.actions
+            input(type="submit", value="Analysis")
+    form(name="signup",action='https://add-rajatkusumwal.c9users.io/signup')
+        div.actions
+            input(type="submit", value="SignUp")
+    form(name="Login",action='https://add-rajatkusumwal.c9users.io/login')
+        div.actions
+            input(type="submit", value="Login")
+    form(name="Logout",action='https://add-rajatkusumwal.c9users.io/logout')
+        div.actions
+            input(type="submit", value="Logout")
+    
+    h1 Advertisements:-
+    p #{val}
+    p(style='white-space:pre;')
+        a(href='https://add-rajatkusumwal.c9users.io/add?cat_id=1&ban_id=1') Cat_ID=1 Ban_ID=1
+        br
+        a(href='https://add-rajatkusumwal.c9users.io/add?cat_id=1&ban_id=2') Cat_ID=1 Ban_ID=2
+        br
+        a(href='https://add-rajatkusumwal.c9users.io/add?cat_id=2&ban_id=1') Cat_ID=2 Ban_ID=1
+        br
+        a(href='https://add-rajatkusumwal.c9users.io/add?cat_id=2&ban_id=2') Cat_ID=2 Ban_ID=2
